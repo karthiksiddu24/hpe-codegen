@@ -75,11 +75,11 @@ Make it responsive, clean, and semantic.
 
 **Prompts:**
 ```python
-Summarize the uploaded file.
+Summarize and explain the uploaded file.
 
 Extract and explain the 'register_user' function line-by-line.
 
-Annotate the function with detailed comments.
+Annotate the whole file with detailed comments.
 ```
 
 **Expected Outcome:**
@@ -98,7 +98,7 @@ Annotate the function with detailed comments.
 
 **Prompts:**
 ```javascript
-Summarize the uploaded file.
+Summarize and explain the uploaded file.
 
 Modernize it using let/const, arrow functions, async/await.
 
