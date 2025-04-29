@@ -47,8 +47,7 @@ Explain how a 'for' loop works in Python, JavaScript, and Java. Provide example 
 
 **Prompt:**
 ```html
-Create a single-page portfolio website using Bootstrap 5.
-
+Generate code for a single-page portfolio website using Bootstrap 5.
 Include:
 - Hero section (name, title, CTA)
 - About section
@@ -56,7 +55,6 @@ Include:
 - Skills grid
 - Contact form
 - Footer with social links
-
 Make it responsive, clean, and semantic.
 ```
 
@@ -78,7 +76,9 @@ Make it responsive, clean, and semantic.
 **Prompts:**
 ```python
 Summarize the uploaded file.
+
 Extract and explain the 'register_user' function line-by-line.
+
 Annotate the function with detailed comments.
 ```
 
@@ -99,7 +99,9 @@ Annotate the function with detailed comments.
 **Prompts:**
 ```javascript
 Summarize the uploaded file.
+
 Modernize it using let/const, arrow functions, async/await.
+
 Convert it to TypeScript.
 ```
 
@@ -132,8 +134,14 @@ Solve this in Python.
 
 **Prompt:**
 ```html
-Convert the uploaded desktop-only layout to a responsive layout using Bootstrap 5.
-Ensure all elements stack correctly on mobile.
+Convert the uploaded static website to a responsive layout using Bootstrap 5.
+Specifically:
+- Replace the fixed-width `.container` (e.g., 960px) with Bootstrap's `container` class.
+- Use Bootstrap's grid system (`row`, `col-md-*`, `col-sm-*`) to layout the `.card` elements in a responsive grid.
+- On desktop: display cards in 2 columns.
+- On mobile: cards should stack vertically with full width.
+- Ensure the typography, spacing, and alignment remain clean on all devices.
+Output full HTML and CSS using Bootstrap 5. Include responsive meta tags and verify layout changes through media queries or grid classes.
 ```
 
 **Expected Outcome:**
